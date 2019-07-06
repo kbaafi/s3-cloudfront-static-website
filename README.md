@@ -2,6 +2,7 @@
 [statichost]:images/static.png
 [cloudfront]:images/cloudfront.png
 [website]:images/website.png
+[websitelink]: http://kb-uda-website.s3.amazonaws.com/index.html "http://kb-uda-website.s3.amazonaws.com/index.html"
 
 # Launcing a static website with S3 and CloudFront
 
@@ -55,6 +56,6 @@ This project shows you how to launch a static website using AWS S3 and CloudFron
 
 ## The hosted website
 
-The website was hosted on the now defunct link: **http://kb-uda-website.s3.amazonaws.com/index.html** but is shown below:
+The website is hosted at: http://kb-uda-website.s3.amazonaws.com/index.html and is shown below:
 
 ![website]
