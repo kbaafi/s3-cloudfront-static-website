@@ -1,7 +1,8 @@
-[upload]:images/upload.png
+[upload]:images/files.png
 [statichost]:images/static.png
 [cloudfront]:images/cloudfront.png
 [website]:images/website.png
+[bucketpolicy]:images/bucketpolicy.png
 [websitelink]: http://kb-uda-website.s3.amazonaws.com/index.html "http://kb-uda-website.s3.amazonaws.com/index.html"
 
 # Launcing a static website with S3 and CloudFront
@@ -32,6 +33,9 @@ This project shows you how to launch a static website using AWS S3 and CloudFron
   ]
 }
  ```
+The policy in the AWS Console is shown below:
+
+![bucketpolicyT]
 
 4. **Configuring S3 Hosting**: Under **bucket_name>Properties**, select **Static website hosting** and set the index and error page links accordingly
 
@@ -57,5 +61,7 @@ This project shows you how to launch a static website using AWS S3 and CloudFron
 ## The hosted website
 
 The website is hosted at: http://kb-uda-website.s3.amazonaws.com/index.html and is shown below:
+
+The CloudFront endpoint url for this site is: http://d2848qruw8znsi.cloudfront.net/index.html 
 
 ![website]
